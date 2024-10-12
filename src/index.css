@@ -1,0 +1,97 @@
+/* importsd from google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  min-height: 100px;
+  background: black;
+}
+
+.img {
+  position: absolute;
+  bottom: 20%;
+}
+
+
+#root {
+  width: 100%;
+  padding: 0 auto;
+}
+
+.login-container {
+  max-width: 400px;
+  margin-top: 15rem;
+  margin-left: 80rem;
+  border-radius: 0.5rem;
+  padding: 2rem 1.5rem;
+  background: #fff;
+}
+
+.login-container .form-title {
+  text-align: center;
+  font-size: 1.37rem;
+  font-family: 600;
+  margin-bottom: 1.87rem;
+}
+
+.login-form .input-wrapper {
+  height: 54px;
+  width: 100%;
+  position: relative;
+  margin-bottom: 1.5rem;
+}
+
+
+.login-form .input-wrapper .input-field {
+  height: 100%;
+  width: 100%;
+  border-radius: 0.31rem;
+  border: 1px solid #bfb3f2;
+  padding: 0 1.25rem 0 3.12rem;
+}
+
+
+
+.login-form .input-wrapper .input-field::placeholder {
+  color: #bfb3f2;
+}
+
+.login-form .input-wrapper i {
+  color: #bfb3f2;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  transition: 0.2s ease;
+}
+
+.login-form .input-wrapper i:not(.eye-icon) {
+  left: 0.9rem;
+  pointer-events: none;
+}
+
+
+.login-form .login-button {
+  width: 100%;
+  height: 54px;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  color: #fff;
+  font-weight: 500;
+  font-size: 1.25rem;
+  background: black;
+  margin-top: 2.19rem;
+  border-radius: 0.31rem;
+}
+  
+
+
+
